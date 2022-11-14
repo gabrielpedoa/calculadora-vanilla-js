@@ -1,53 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora do Biel</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/app.js" defer></script>
+    z
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Calculadora do Biel</title>
-  <link rel="stylesheet" href="/styles.css">
-  <script src="/app.js" defer></script>
-</head>
+  <body>
+    <div class="conteudo-total">
+      <div class="titulo-calculadora">
+        <h1 class="titulo">calculadora do biel</h1>
+      </div>
 
-<body>
-  <div class="conteudo-total">
+      <div class="visor-total" id="viewfinder"></div>
 
-    <div class="titulo-calculadora"> <h1 class="titulo">calculadora do biel</h1> </div>
+      <div class="botao-total">
+        <button class="numero" data-number="7">7</button>
+        <button class="numero" data-number="8">8</button>
+        <button class="numero" data-number="9">9</button>
 
-    <div class="visor-total"></div>
+        <button class="operador" data-operator="/">/</button>
 
-    <div class="botao-total">
-      <button class="numero">7</button>
-      <button class="numero">8</button>
-      <button class="numero">9</button>
+        <button class="numero" data-number="4">4</button>
+        <button class="numero" data-number="5">5</button>
+        <button class="numero" data-number="6">6</button>
 
-      <button class="operador">/</button>
+        <button class="operador" data-operator="*">x</button>
 
-      <button class="numero">4</button>
-      <button class="numero">5</button>
-      <button class="numero">6</button>
+        <button class="numero" data-number="1">1</button>
+        <button class="numero" data-number="2">2</button>
+        <button class="numero" data-number="3">3</button>
 
-      <button class="operador">x</button>
+        <button class="operador" data-operator="-">-</button>
 
-      <button class="numero">1</button>
-      <button class="numero">2</button>
-      <button class="numero">3</button>
+        <button class="numero" data-number="0">0</button>
 
-      <button class="operador">-</button>
+        <button class="numero" data-number=".">.</button>
 
-      <button class="numero">0</button>
+        <button class="igual" data-operator="=">=</button>
 
-      <button class="numero">.</button>
+        <button class="operador" data-operator="+">+</button>
 
-      <button class="igual">=</button>
-
-      <button class="operador">+</button>
-
-      <button class="clear">clear</button>
+        <button class="clear" id="clear-btn">clear</button>
+      </div>
     </div>
-
-  </div>
-</body>
-
+  </body>
 </html>
