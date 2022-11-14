@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 50px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial;
+}
+
+.titulo {
+  text-align: center;
+  position: relative;
+  top: -30px;
+}
+
+.conteudo-total {
+  height: 29em;
+  width: 400px;
+  padding: 50px;
+  border-radius: 50px;
+  background-color: #dadada;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+}
+
+.visor-total {
+  text-align: right;
+  overflow-wrap: break-word;
+  /* quebra de texto, quando aparecer no visor*/
+  height: 2em;
+  background-color: white;
+  border: 2px solid #000;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding-right: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.visor-total,
+.visor-item {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.visor-item {
+  margin-right: 20px;
+}
+
+.botao-total {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.numero,
+.operador,
+.clear,
+.igual {
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.botao-total,
+.numero {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 5em;
+  cursor: pointer;
+}
+
+.botao-total,
+.operador,
+.igual {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  height: 5em;
+  cursor: pointer;
+  background-color: rgb(142, 141, 208);
+}
+
+.botao-total,
+.clear {
+  display: grid;
+  grid-column: 1/ -1;
+  align-items: center;
+  justify-content: center;
+  height: 5em;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.numero:hover {
+  background-color: rgb(56, 147, 69);
+}
+
+.operador:hover {
+  background-color: rgb(172, 172, 172);
+}
+
+.igual:hover {
+  background-color: rgb(172, 172, 172); 
+}
+
+.clear {
+  background-color: rgb(230, 230, 118);
+}
+
+.clear:hover {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
