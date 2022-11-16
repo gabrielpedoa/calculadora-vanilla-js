@@ -1,9 +1,6 @@
 /* 
-
-[] Mostrar os dois numeros e operadores no visor
-  [] Só deixar colocar um numero, depois um operador, depois um numero 
-  [] O 0 nunca pode ser o primeiro numero
-  [] 
+[x] Mostrar os dois numeros e operadores no visor
+  [] Só deixar colocar numero, depois um operador, depois um numero 
 
 [] Realizar a conta do visor e mostrar resultado
 */
@@ -80,4 +77,6 @@ function callbackListener(element) {
 }
 
 numeros.forEach(callbackListener);
-operadores.forEach(callbackListener);
+operadores.forEach(callbackListener); 
+
+
